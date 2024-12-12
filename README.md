@@ -2,7 +2,7 @@ This are the files used to setup a development environment for myself.
 In particular, this will include Vim config files, as well as instructions
 for setting up my Vim plugins.
 
-## Setup ##
+## Setup
 
 I use Vundle as my plugin manager for Vim, so use the following to install
 Vundle:
@@ -14,6 +14,17 @@ After installing Vundle, install the other plugins listed in my .vimrc.
 *Note: YouCompleteMe is unable to be installed on MacOS's vim since it lacks
 python support*
 
-## Installing YouCompleteMe ##
+### Installing YouCompleteMe
 
-To Be Continued...
+* Note: I have installed this on MacOS, but it was an annoying and painful
+process, where I was dealing with SSL authentication issues. The below guide
+therefore is **not** for MacOS*
+
+To install YouCompleteMe, open vim and enter the following:
+
+```:PluginInstall```
+
+Once this has been done, navigate to ~/.vim/bundle/YouCompleteMe and 
+
+```./install.py --clangd-completer --verbose```
+

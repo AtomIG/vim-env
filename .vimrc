@@ -33,3 +33,4 @@ set smarttab
 set shiftwidth=2
 color slate
 set colorcolumn=80
+syntax on
